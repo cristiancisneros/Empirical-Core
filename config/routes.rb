@@ -125,7 +125,11 @@ EmpiricalGrammar::Application.routes.draw do
     end
   end
 
+<<<<<<< HEAD
   %w(middle_school story learning develop mission faq tos privacy activities new impact stats team premium_access premium).each do |page|
+=======
+  %w(middle_school story learning develop mission faq tos privacy activities new impact team premium_access premium).each do |page|
+>>>>>>> 5b80a538bfbe7a94e471a82b7d1cb4830fbcd9f0
     get page => "pages##{page}", as: "#{page}"
   end
 

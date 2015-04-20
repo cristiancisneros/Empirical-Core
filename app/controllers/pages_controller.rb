@@ -34,9 +34,12 @@ class PagesController < ApplicationController
 
   def impact
   end
+<<<<<<< HEAD
   
   def stats
   end
+=======
+>>>>>>> 5b80a538bfbe7a94e471a82b7d1cb4830fbcd9f0
 
   def team
   end
@@ -69,7 +72,11 @@ class PagesController < ApplicationController
     case action_name
     when 'home'
       'home'
+<<<<<<< HEAD
     when 'mission', 'develop', 'faq', 'impact', 'team', 'activities', 'premium', 'stats'
+=======
+    when 'mission', 'develop', 'faq', 'impact', 'team', 'activities', 'premium'
+>>>>>>> 5b80a538bfbe7a94e471a82b7d1cb4830fbcd9f0
       'about'
     when 'premium_access'
       'premium'
