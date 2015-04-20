@@ -1,0 +1,35 @@
+#scorebook {
+	.icons-wrapper.score-legend {
+		padding-bottom: 30px;
+		border-bottom: 1px solid rgb(206,206,206);
+	}
+
+	.dropdown-menu {
+		margin-left: 15px;
+	}
+
+	.date-range-filter {
+		padding-left: 15px;
+		.datepicker-container {
+			.datepicker-and-x {
+				position:relative;
+			}
+			input {
+				height: 40px;
+				width: 100%;
+				padding-left: 25px;
+				background-position: 90% 45%;
+			}
+			input.date-is-selected {
+				background-image: none;
+			}
+			.icon-x-gray {
+				height: 20px;
+				width: 20px;
+				position: absolute;
+				right: 8%;
+				top:6%;
+			}
+		}
+	}
+}

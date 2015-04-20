@@ -1,0 +1,8 @@
+.breadcrumb > li + li:before {
+  content: ">";
+}
+
+.breadcrumb a {
+  color: #00E;
+  text-decoration: underline;
+}

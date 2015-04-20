@@ -1,0 +1,5 @@
+%div{'data-id' => @id, 'class' => @css_class()}
+  - if @get('word')
+    = @get('word')
+  - else
+    = @get('error')

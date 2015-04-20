@@ -1,0 +1,14 @@
+content_types:
+  FileUpload:
+    attributes:
+      name: string
+      file: file
+      description: text
+  PageArea:
+    attributes:
+      name: string
+      description: string
+      content: html
+
+pages:
+  about: about

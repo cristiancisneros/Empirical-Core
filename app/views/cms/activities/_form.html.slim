@@ -1,0 +1,14 @@
+- if @activity.new_record?
+  - url = url_for(controller: 'cms/activities', key: @activity.classification.key, action: 'create')
+- else
+  - url = url_for(controller: 'cms/activities', key: @activity.classification.key, action: 'update', id: @activity.id)
+
+= form_for @activity, url: url, html: { class: 'box-full-form form-vertical' } do |f|
+  .l-section
+    h4 Basic setup
+    = f.string :name
+    = f.text :description
+    = f.choices :flag, ACTIVITY_FLAGS
+    = f.choices :topic_id, Topic.all.map{|t| [t.name, t.id]}
+
+  = f.actions save: 'Next'

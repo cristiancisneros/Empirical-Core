@@ -1,0 +1,13 @@
+article.new-session-page {
+  .error-message {
+    margin-bottom: 20px;
+    color: $missed-color;
+    @include bold;
+  }
+
+  .success-message {
+    margin-bottom: 20px;
+    color: $found-color;
+    @include bold;
+  }
+}

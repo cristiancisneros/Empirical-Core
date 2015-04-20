@@ -1,0 +1,20 @@
+content_types:
+  FileUpload:
+    attributes:
+      name: string
+      file: file
+      description: text
+  PageArea:
+    attributes:
+      name: string
+      description: string
+      content: html
+  HomepageNewsSlide:
+    attributes:
+      link: string
+      position: orderable
+      image: file
+      text: text
+  Chapter:
+    attributes:
+      title: string
